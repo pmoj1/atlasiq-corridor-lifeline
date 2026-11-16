@@ -1,0 +1,48 @@
+{
+  "AtlasIQ-30s-voiceover.mp4": {
+    "duration": 30.0,
+    "fps": 30,
+    "frames": 900,
+    "resolution": "1920x1080",
+    "audio": true,
+    "decode": "pass"
+  },
+  "AtlasIQ-30s-captioned.mp4": {
+    "duration": 30.0,
+    "fps": 30,
+    "frames": 900,
+    "resolution": "1920x1080",
+    "audio": true,
+    "decode": "pass"
+  },
+  "AtlasIQ-30s-silent.mp4": {
+    "duration": 30.0,
+    "fps": 30,
+    "frames": 900,
+    "resolution": "1920x1080",
+    "audio": false,
+    "decode": "pass"
+  },
+  "end_hold": {
+    "seconds": 2,
+    "source_frames": 60,
+    "identical": true
+  },
+  "mix": {
+    "duration": 30,
+    "channels": 2,
+    "peak": 0.705078125,
+    "clipping": false,
+    "synthetic_voice": "en-AU-WilliamNeural",
+    "time_stretch": false
+  },
+  "editor": {
+    "manual_checks": [
+      "timeline frame preview",
+      "interface isolation",
+      "playback",
+      "title saving"
+    ],
+    "format": "local HTML/Python"
+  }
+}

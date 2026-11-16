@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AtlasIQ | Corridor Lifeline</title>
+  <meta name="description" content="AtlasIQ is developing Corridor Lifeline for Australia's east–west freight corridor, starting with transparent weather and rail-status summaries." />
+  <meta property="og:title" content="AtlasIQ | Corridor Lifeline" />
+  <meta property="og:description" content="A clearer picture of corridor disruption. Transparent weather and rail-status summaries for Australia's east–west freight corridor." />
+  <meta property="og:image" content="assets/corridor-scene.svg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FFA028'/%3E%3Cpath d='M18 44 32 18l14 26h-8l-6-12-6 12z' fill='%2305080F'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+<noscript><style>.reveal,.reveal-card,.reveal-img{opacity:1;transform:none}.hero__title .line>span{transform:none}.cstep{opacity:1}</style></noscript>
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="AtlasIQ home">
+      <span class="nav__mark"></span>
+      <span class="nav__word">Atlas<em>IQ</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#problem">The problem</a>
+      <a href="#product">Corridor Lifeline</a>
+      <a href="#journey">The direction</a>
+      <a href="#progress">Progress</a>
+      <a href="#team">Founder</a>
+    </nav>
+    <a class='btn btn--small' href='waitlist.html'>Follow the build</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-parallax>
+        <img src="assets/corridor-scene.svg" alt="Illustrated road train crossing a landscape" />
+      </div>
+      <div class="hero__inner container">
+        <p class="eyebrow reveal">AtlasIQ &nbsp;·&nbsp; Corridor Lifeline</p>
+        <h1 class="hero__title">
+          <span class="line"><span>A clearer picture</span></span>
+          <span class="line"><span>of <em>corridor</em></span></span>
+          <span class="line"><span><em>disruption.</em></span></span>
+        </h1>
+        <p class="hero__sub reveal">AtlasIQ is developing Corridor Lifeline to help freight businesses understand changing conditions on Australia's east–west corridor. The first prototype brings weather observations, public warnings and manually verified rail status into one explainable summary.</p>
+        <div class="hero__cta reveal">
+          <a class="btn" href="#product">Explore Corridor Lifeline</a>
+          <a class="btn btn--ghost" href="#progress">Follow the build</a>
+        </div>
+        <p class="wl-pill reveal"><span class="pulse"></span>Early prototype · Solo founder · Under development</p>
+      </div>
+      <div class="hero__stats container">
+        <div class="stat"><strong>Weather</strong><span>configured observations</span></div>
+        <div class="stat"><strong>Warnings</strong><span>public source context</span></div>
+        <div class="stat"><strong>Rail status</strong><span>manually verified updates</span></div>
+        <div class="stat"><strong>Human review</strong><span>plain-language draft summaries</span></div>
+      </div>
+    </section>
+
+    <!-- ===== TICKER ===== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track"><span>Weather observations</span><i>◆</i><span>Public warnings</span><i>◆</i><span>Verified rail status</span><i>◆</i><span>Visible data gaps</span><i>◆</i><span>Explainable rules</span><i>◆</i><span>Human review</span><i>◆</i><span>Weather observations</span><i>◆</i><span>Public warnings</span><i>◆</i><span>Verified rail status</span><i>◆</i><span>Visible data gaps</span><i>◆</i><span>Explainable rules</span><i>◆</i><span>Human review</span><i>◆</i></div>
+    </div>
+
+    <!-- ===== PROBLEM (dark) ===== -->
+    <section class="section problem" id="problem">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow reveal">The problem</p>
+          <h2 class="reveal">When the corridor changes, decisions get harder.</h2>
+          <p class="lede reveal">Weather disruption on the east–west freight corridor can affect shipments, stock and delivery plans. Businesses need to understand what is known, which information is current and where the gaps are. Corridor Lifeline starts by bringing those signals together so people can review the situation with clearer context.</p>
+          <ul class="checklist reveal">
+            <li><strong>Scattered information.</strong> Weather warnings and rail announcements arrive through separate sources.</li>
+            <li><strong>Changing conditions.</strong> A useful update needs its source and timestamp, not just a status label.</li>
+            <li><strong>Human decisions.</strong> Freight teams still need to review official information and decide what to do next.</li>
+          </ul>
+        </div>
+        <figure class="media reveal-img">
+          <img src="assets/corridor-scene.svg" alt="Illustration of a road train on a freight corridor" loading="lazy" />
+          <figcaption>Freight depends on changing corridor conditions. Concept illustration.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ROAD STRIP 1 ===== -->
+    <div class="road road--light-top" aria-hidden="true">
+      <svg class="road__truck" viewBox="0 0 132 62">
+        <rect class="t-box" x="2" y="8" width="78" height="34" rx="5"/>
+        <path class="t-cab" d="M84 18h22c3 0 5 1.4 6.6 3.8l8 12c1 1.5 1.4 3 1.4 4.8V42a4 4 0 0 1-4 4H84V18z"/>
+        <rect class="t-win" x="88" y="22" width="14" height="10" rx="2"/>
+        <rect class="t-base" x="2" y="42" width="116" height="5" rx="2.5"/>
+        <g class="wheel" style="transform-origin:30px 51px"><circle cx="30" cy="51" r="9" class="w-tyre"/><circle cx="30" cy="51" r="4" class="w-hub"/><rect x="29" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:62px 51px"><circle cx="62" cy="51" r="9" class="w-tyre"/><circle cx="62" cy="51" r="4" class="w-hub"/><rect x="61" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:101px 51px"><circle cx="101" cy="51" r="9" class="w-tyre"/><circle cx="101" cy="51" r="4" class="w-hub"/><rect x="100" y="43.5" width="2" height="15" class="w-spoke"/></g>
+      </svg>
+    </div>
+
+    <!-- ===== CORRIDOR LIFELINE (light) ===== -->
+    <section class="section section--light product" id="product">
+      <div class="container">
+        <p class="eyebrow reveal">Corridor Lifeline</p>
+        <h2 class="reveal">Understand the signals. See the gaps.</h2>
+        <p class="lede reveal">The current local Python prototype gathers configured inputs, applies transparent rules and prepares a summary for human review.</p>
+        <div class="product__cards">
+          <article class="pcard reveal-card">
+            <div class="pcard__media"><img src="assets/corridor-scene.svg" alt="Road train on a freight corridor — concept illustration" loading="lazy" /></div>
+            <div class="pcard__body"><span class="pcard__tag">Current prototype · Inputs</span><h3>Gather the inputs.</h3><p>Read configured BOM weather observations and warning feeds alongside manually verified rail-status information. Keep source timestamps and missing or stale inputs visible.</p></div>
+          </article>
+          <article class="pcard pcard--accent reveal-card">
+            <div class="pcard__media signal-art" aria-hidden="true"><span>OBSERVE<br />EXPLAIN<br />REVIEW</span></div>
+            <div class="pcard__body"><span class="pcard__tag">Current prototype · Context</span><h3>Explain the score.</h3><p>Show the rules and reasons behind each result, then generate a plain-language email draft for a person to review. A gap stays visible; it never becomes an automatic all-clear.</p></div>
+          </article>
+        </div>
+        <div class="v1banner reveal"><span class="v1banner__tag">Prototype limits</span><div><strong>A rule score, not a closure prediction.</strong><p>The score is illustrative, not a probability. The prototype does not send alerts, submit permits or provide complete corridor coverage.</p></div></div>
+
+        <!-- animated pipeline -->
+        <div class="pipeline reveal" id="pipeline" aria-label="How the current Corridor Lifeline prototype prepares a summary">
+          <div class="pipeline__node">
+            <span class="pipeline__icon">📥</span>
+            <strong>Configured inputs</strong>
+            <span>Weather · warnings · rail</span>
+          </div>
+          <div class="pipeline__flow"><svg viewBox="0 0 120 8" preserveAspectRatio="none"><line x1="0" y1="4" x2="120" y2="4" stroke-dasharray="6 6"/></svg><span class="pipeline__dot"></span></div>
+          <div class="pipeline__node pipeline__node--core">
+            <span class="pipeline__icon">◆</span>
+            <strong>Transparent rules</strong>
+            <span>Reasons · timestamps · gaps</span>
+          </div>
+          <div class="pipeline__flow"><svg viewBox="0 0 120 8" preserveAspectRatio="none"><line x1="0" y1="4" x2="120" y2="4" stroke-dasharray="6 6"/></svg><span class="pipeline__dot pipeline__dot--b"></span></div>
+          <div class="pipeline__node">
+            <span class="pipeline__icon">📤</span>
+            <strong>Reviewable summary</strong>
+            <span>Plain-language email draft</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY (pinned scrollytelling, dark) ===== -->
+    <section class="corridor" id="journey">
+      <div class="corridor__pin">
+        <div class="container corridor__layout">
+          <div class="corridor__copy">
+            <p class="eyebrow">The direction</p>
+            <h2>Start with visibility.<br />Build from <em>evidence.</em></h2>
+            <p class="direction-note">Only first-stage monitoring and draft summaries are implemented today. Later capabilities remain proposed.</p>
+            <div class="corridor__steps">
+              <div class="cstep" data-step="0"><strong>Detection and context · Prototype</strong><p>Bring configured weather and verified rail information into an explainable view, keeping data quality visible.</p></div>
+              <div class="cstep" data-step="1"><strong>Review the information · Prototype</strong><p>Prepare a plain-language email draft with reasons, source timestamps and visible gaps for human review.</p></div>
+              <div class="cstep" data-step="2"><strong>Subscriber alerts · Proposed</strong><p>Develop delivery of reviewed updates after validating source coverage, permissions and delivery behaviour.</p></div>
+              <div class="cstep" data-step="3"><strong>Paperwork support · Proposed</strong><p>Explore draft emergency documentation based on verified requirements, with human review before submission.</p></div>
+              <div class="cstep" data-step="4"><strong>Validate before expanding</strong><p>Advance-warning performance still needs verified historical testing. No lead time or closure-prediction accuracy has been demonstrated.</p></div>
+            </div>
+          </div>
+          <div class="corridor__map"><span class="map-note">Conceptual development path · not a geographic route</span>
+            <svg id="corridorSvg" viewBox="0 0 520 560" fill="none" aria-hidden="true">
+              <defs>
+                <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#FFA028" stop-opacity=".9"/>
+                  <stop offset="100%" stop-color="#FFA028" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <g class="corridor__grid"></g>
+              <path id="routeGhost" d="M456 470 C 400 440, 340 390, 310 330 C 280 272, 250 240, 205 205 C 165 172, 140 150, 118 122 C 100 100, 88 92, 70 78" />
+              <path id="routePath" d="M456 470 C 400 440, 340 390, 310 330 C 280 272, 250 240, 205 205 C 165 172, 140 150, 118 122 C 100 100, 88 92, 70 78" />
+              <g class="wp" data-wp="0" transform="translate(456 470)"><circle r="24" fill="url(#gGlow)" opacity=".55" class="wp__glow"/><circle r="6" class="wp__dot"/><text x="-18" y="5" text-anchor="end">INPUTS</text></g>
+              <g class="wp" data-wp="1" transform="translate(310 330)"><circle r="5" class="wp__dot"/><text x="16" y="5">REVIEW</text></g>
+              <g class="wp" data-wp="2" transform="translate(205 205)"><circle r="5" class="wp__dot"/><text x="16" y="5">ALERTS · PROPOSED</text></g>
+              <g class="wp" data-wp="3" transform="translate(118 122)"><circle r="5" class="wp__dot"/><text x="16" y="5">DRAFTS · PROPOSED</text></g>
+              <g class="wp" data-wp="4" transform="translate(70 78)"><circle r="24" fill="url(#gGlow)" opacity=".55" class="wp__glow"/><circle r="6" class="wp__dot"/><text x="16" y="-12">VALIDATE</text></g>
+              <g id="vessel">
+                <g class="mini-truck">
+                  <rect x="-16" y="-11" width="20" height="11" rx="2" class="t-box"/>
+                  <path d="M5 -8h6c1.2 0 2 .5 2.6 1.4l2.6 3.8c.4.6.6 1.2.6 1.9V0a1.6 1.6 0 0 1-1.6 1.6H5V-8z" class="t-cab"/>
+                  <circle cx="-9" cy="2.6" r="3" class="w-tyre"/>
+                  <circle cx="9" cy="2.6" r="3" class="w-tyre"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRESS TRACKER (warm dark) ===== -->
+    <section class="section section--warm progress" id="progress">
+      <div class="container">
+        <div class="progress__head">
+          <div>
+            <p class="eyebrow reveal">Build progress</p>
+            <h2 class="reveal">A working starting point.</h2>
+          </div>
+          <div class="progress__status reveal">
+            <span class="pulse"></span> Editorial update · <span id="statusDate">12 October 2026</span>
+          </div>
+        </div>
+
+        <p class="lede reveal">A local Python prototype collects configured inputs, calculates a transparent score and creates reviewable email drafts. Offline demonstrations exercise 2022 and 2024 closure-related scenarios.</p><p class="demo-note reveal">The demonstrations use illustrative historical weather and warnings. They show software behaviour; they are not a validated historical backtest or proof of advance warning.</p>
+        <div class="timeline" id="timeline">
+          <div class="timeline__fill"></div>
+          <div class="milestone milestone--complete"><span class="milestone__dot"></span><div class="milestone__head"><h3>Local prototype and offline demonstrations</h3><span class="milestone__badge">Available now</span></div><p>Configured inputs, explainable rules and reviewable email drafts.</p></div>
+          <div class="milestone"><span class="milestone__dot"></span><div class="milestone__head"><h3>Broader coverage and historical performance</h3><span class="milestone__badge">Still to validate</span></div><p>Source coverage, commercial data permissions and performance against verified historical information require further work.</p></div>
+          <div class="milestone"><span class="milestone__dot"></span><div class="milestone__head"><h3>Subscriber delivery and paperwork drafts</h3><span class="milestone__badge">Proposed</span></div><p>Future development ideas, subject to validation and human review.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ROAD STRIP 2 (reversed) ===== -->
+    <div class="road road--reverse road--light-bottom" aria-hidden="true">
+      <svg class="road__truck" viewBox="0 0 132 62">
+        <rect class="t-box" x="2" y="8" width="78" height="34" rx="5"/>
+        <path class="t-cab" d="M84 18h22c3 0 5 1.4 6.6 3.8l8 12c1 1.5 1.4 3 1.4 4.8V42a4 4 0 0 1-4 4H84V18z"/>
+        <rect class="t-win" x="88" y="22" width="14" height="10" rx="2"/>
+        <rect class="t-base" x="2" y="42" width="116" height="5" rx="2.5"/>
+        <g class="wheel" style="transform-origin:30px 51px"><circle cx="30" cy="51" r="9" class="w-tyre"/><circle cx="30" cy="51" r="4" class="w-hub"/><rect x="29" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:62px 51px"><circle cx="62" cy="51" r="9" class="w-tyre"/><circle cx="62" cy="51" r="4" class="w-hub"/><rect x="61" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:101px 51px"><circle cx="101" cy="51" r="9" class="w-tyre"/><circle cx="101" cy="51" r="4" class="w-hub"/><rect x="100" y="43.5" width="2" height="15" class="w-spoke"/></g>
+      </svg>
+    </div>
+
+    <!-- ===== FOUNDER (light) ===== -->
+    <section class="section section--light team" id="team">
+      <div class="container">
+        <p class="eyebrow reveal">Founder</p>
+        <h2 class="reveal">Built by Jay-deane Huni.</h2>
+        <div class="team__grid">
+          <article class="tcard reveal-card"><div class="tcard__avatar"><span>JH</span></div><h3>Jay-deane Huni</h3><span class="tcard__role">Founder · AtlasIQ</span><p>I'm building AtlasIQ around one focused idea: making disruption on the east–west freight corridor easier to understand. Corridor Lifeline is the first product direction, starting with a transparent prototype and a plan to build evidence before expanding its capabilities.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA (dark) ===== -->
+    <section class="section cta" id="contact">
+      <div class="container cta__box reveal">
+        <p class="eyebrow">Follow the build</p><h2>Help shape Corridor Lifeline.</h2>
+        <p>Work with freight that depends on the east–west corridor? Share the information you need when conditions change, or express interest in future development updates.</p>
+        <div class="cta__actions"><a class="btn" href="mailto:admin@atlasiqco.com?subject=Corridor%20Lifeline">Get in touch</a><a class="btn btn--ghost" href="waitlist.html">Express interest</a></div>
+        <span class="cta__note">Under development. Expressing interest does not provide operational alerts or guarantee pilot access.</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="nav__logo" href="#top"><span class="nav__mark"></span><span class="nav__word">Atlas<em>IQ</em></span></a>
+        <p>AtlasIQ · Corridor Lifeline<br />Developing clearer corridor information for better-informed freight decisions.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Site</strong>
+        <a href="#product">Corridor Lifeline</a>
+        <a href="#journey">The direction</a>
+        <a href="#progress">Progress</a>
+        <a href='waitlist.html'>Follow the build</a>
+      </div>
+      <div class="footer__col">
+        <strong>Contact</strong>
+        <a href="mailto:admin@atlasiqco.com">admin@atlasiqco.com</a>
+        
+        <span>Perth, Australia</span>
+      </div>
+    </div>
+    <div class="container footer__base">
+      <span>© <span id="copyrightYear">2026</span> AtlasIQ. All rights reserved.</span>
+      <span>Early prototype. Consult official warnings and operator advice for operational decisions.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

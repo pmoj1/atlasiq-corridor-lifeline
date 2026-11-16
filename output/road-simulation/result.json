@@ -1,0 +1,488 @@
+{
+  "status": "watch",
+  "checked_at": "2026-11-09T06:00:00+00:00",
+  "sites": [
+    {
+      "name": "Mapped start",
+      "lat": -20.312010291613703,
+      "lon": 118.60621870898636,
+      "hours": [
+        {
+          "time": "2026-11-09T06:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T07:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T08:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T09:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T10:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T11:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T12:00:00+00:00",
+          "rain_mm": 6,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T13:00:00+00:00",
+          "rain_mm": 9,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T14:00:00+00:00",
+          "rain_mm": 12,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T15:00:00+00:00",
+          "rain_mm": 8,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T16:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T17:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T18:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T19:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T20:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T21:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T22:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T23:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T00:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T01:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T02:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T03:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T04:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T05:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        }
+      ]
+    },
+    {
+      "name": "Mapped midpoint",
+      "lat": -20.312313294441804,
+      "lon": 118.59020047904934,
+      "hours": [
+        {
+          "time": "2026-11-09T06:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T07:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T08:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T09:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T10:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T11:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T12:00:00+00:00",
+          "rain_mm": 6,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T13:00:00+00:00",
+          "rain_mm": 9,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T14:00:00+00:00",
+          "rain_mm": 12,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T15:00:00+00:00",
+          "rain_mm": 8,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T16:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T17:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T18:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T19:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T20:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T21:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T22:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T23:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T00:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T01:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T02:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T03:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T04:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T05:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        }
+      ]
+    },
+    {
+      "name": "Mapped end",
+      "lat": -20.314220804292766,
+      "lon": 118.57810758237503,
+      "hours": [
+        {
+          "time": "2026-11-09T06:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T07:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T08:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T09:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T10:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T11:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T12:00:00+00:00",
+          "rain_mm": 6,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T13:00:00+00:00",
+          "rain_mm": 9,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T14:00:00+00:00",
+          "rain_mm": 12,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T15:00:00+00:00",
+          "rain_mm": 8,
+          "wind_kmh": 22,
+          "exposure": "watch"
+        },
+        {
+          "time": "2026-11-09T16:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T17:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T18:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T19:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T20:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T21:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T22:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-09T23:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T00:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T01:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T02:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T03:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T04:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        },
+        {
+          "time": "2026-11-10T05:00:00+00:00",
+          "rain_mm": 0,
+          "wind_kmh": 22,
+          "exposure": "below threshold"
+        }
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "point": "Mapped start",
+      "start": "2026-11-09T12:00:00+00:00",
+      "max_rain_mm": 12,
+      "max_wind_kmh": 22,
+      "end": "2026-11-09T15:00:00+00:00"
+    },
+    {
+      "point": "Mapped midpoint",
+      "start": "2026-11-09T12:00:00+00:00",
+      "max_rain_mm": 12,
+      "max_wind_kmh": 22,
+      "end": "2026-11-09T15:00:00+00:00"
+    },
+    {
+      "point": "Mapped end",
+      "start": "2026-11-09T12:00:00+00:00",
+      "max_rain_mm": 12,
+      "max_wind_kmh": 22,
+      "end": "2026-11-09T15:00:00+00:00"
+    }
+  ],
+  "draft": "PREPARATION DRAFT \u00b7 HUMAN REVIEW REQUIRED\nContingency road access enquiry\nRoad: Wilson Street, Port Hedland\nPrepared: 2026-11-09T06:00:00+00:00\nTimes are model valid times; rain is the preceding hour accumulation and wind is instantaneous.\nReason: forecast exposure meets the planning threshold (5 mm/h precipitation or 50 km/h wind).\nMapped start | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h\nMapped midpoint | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h\nMapped end | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h\nForecast retrieved: 2026-11-09T06:00:00+00:00\nEvidence: ECMWF AIFS Single via Open-Meteo \u00b7 https://api.open-meteo.com/v1/forecast?latitude=-20.312010291613703%2C-20.312313294441804%2C-20.314220804292766&longitude=118.60621870898636%2C118.59020047904934%2C118.57810758237503&hourly=temperature_2m%2Cprecipitation%2Cwind_speed_10m&forecast_hours=48&models=ecmwf_aifs025_single&timezone=GMT\nRoad status: requires confirmation.\nComplete: responsible authority, applicable permit, applicant, vehicle/load, alternate route, movement window and supporting evidence.\nSubmission: pending planner review.",
+  "detail": "3 forecast exposure window(s) at 3 sampled point(s).",
+  "satellite_at": null,
+  "satellite_status": "unavailable",
+  "model": "ECMWF AIFS Single",
+  "source_url": "https://open-meteo.com/en/docs/ecmwf-api"
+}

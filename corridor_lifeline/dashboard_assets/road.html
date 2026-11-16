@@ -1,0 +1,11 @@
+<section id="road-plan" class="wx-card plan-card">
+<div class="wx-heading"><div><small>LOGISTICS · PLANNER-SELECTED ROAD</small><h3 id="plan-name">Road access watch</h3></div><strong id="plan-state" role="status">Loading check…</strong></div>
+<p id="plan-evidence"></p><svg id="plan-map" viewBox="0 0 480 122" role="img" aria-label="Road forecast samples and published alignment where available"></svg><p id="plan-map-caption"></p><div id="plan-grid" class="plan-scroll"></div><div id="plan-windows"></div>
+<p id="plan-cloud"></p><p id="plan-times"></p><button type="button" id="plan-download" disabled>Download permit preparation draft</button>
+<details><summary>Recent road checks</summary><ol id="plan-history"></ol></details>
+<details><summary>Configure road and permit</summary><form id="plan-form">
+<label>Road and segment <input name="road" required maxlength="160"></label><label>Permit or access request <input name="permit" required maxlength="160"></label>
+<label>Forecast points, one per line <textarea name="points" required rows="4" placeholder="Point name, latitude, longitude"></textarea></label>
+<small>Enter points in travel order. Coordinates are sent to Open-Meteo for forecasts. Road and permit names stay on this Mac.</small>
+<button>Save and check road</button><span id="plan-feedback" role="status"></span></form></details>
+</section>

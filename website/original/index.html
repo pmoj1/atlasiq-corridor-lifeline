@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AtlasIQ — AI agents for freight order entry & compliance</title>
+  <meta name="description" content="AtlasIQ builds AI agents that read shipment requests, build load records and draft customs & biosecurity documents for Australian exporters and freight brokers." />
+  <meta property="og:title" content="AtlasIQ — AI agents for freight order entry & compliance" />
+  <meta property="og:description" content="Order-entry automation and compliance document drafting for Australian exporters and freight brokers." />
+  <meta property="og:image" content="assets/img/hero-ship.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FFA028'/%3E%3Cpath d='M18 44 32 18l14 26h-8l-6-12-6 12z' fill='%2305080F'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="AtlasIQ home">
+      <span class="nav__mark"></span>
+      <span class="nav__word">Atlas<em>IQ</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#product">Product</a>
+      <a href="#journey">How it works</a>
+      <a href="#progress">Progress</a>
+      <a href="#team">Team</a>
+    </nav>
+    <a class='btn btn--small' href='/waitlist'>Join the waitlist</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-parallax>
+        <img src="assets/img/hero-ship.jpg" alt="Aerial view of a cargo vessel crossing open ocean" />
+      </div>
+      <div class="hero__inner container">
+        <p class="eyebrow reveal">Logistics AI agents &nbsp;·&nbsp; Australia</p>
+        <h1 class="hero__title">
+          <span class="line"><span>Freight paperwork,</span></span>
+          <span class="line"><span>done by <em>AI agents</em> —</span></span>
+          <span class="line"><span>before it slows the cargo.</span></span>
+        </h1>
+        <p class="hero__sub reveal">
+          AtlasIQ reads shipment requests, builds load records and drafts customs &amp;
+          biosecurity documents — flagging mistakes before they become customs holds.
+          Built for Australian exporters and freight brokers.
+        </p>
+        <div class="hero__cta reveal">
+          <a class='btn' href='/waitlist'>Join the pilot waitlist</a>
+          <a class="btn btn--ghost" href="#progress">Track our progress</a>
+        </div>
+        <a class='wl-pill reveal wl--nocount' data-wl-wrap href='/waitlist'>
+          <span class="pulse"></span>
+          <span class="when-count"><strong data-wl-count>0</strong>&nbsp;already on the pilot waitlist</span>
+          <span class="when-nocount">Pilot waitlist now open</span>
+        </a>
+      </div>
+      <div class="hero__stats container">
+        <div class="stat"><strong data-count="12" data-prefix="US$" data-suffix="T">US$0T</strong><span>global logistics market</span></div>
+        <div class="stat"><strong>40h&nbsp;→&nbsp;2min</strong><span>one customs entry, automated</span></div>
+        <div class="stat"><strong data-count="62" data-suffix="%">0%</strong><span>of 3PLs call documents their #1 pain</span></div>
+        <div class="stat"><strong>1–4%</strong><span>human error rate, per field</span></div>
+      </div>
+    </section>
+
+    <!-- ===== TICKER ===== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Order entry</span><i>◆</i><span>HS classification</span><i>◆</i><span>Certificates of origin</span><i>◆</i><span>Biosecurity declarations</span><i>◆</i><span>Bills of lading</span><i>◆</i><span>Customs pre-checks</span><i>◆</i><span>Rate lookups</span><i>◆</i>
+        <span>Order entry</span><i>◆</i><span>HS classification</span><i>◆</i><span>Certificates of origin</span><i>◆</i><span>Biosecurity declarations</span><i>◆</i><span>Bills of lading</span><i>◆</i><span>Customs pre-checks</span><i>◆</i><span>Rate lookups</span><i>◆</i>
+      </div>
+    </div>
+
+    <!-- ===== PROBLEM (dark) ===== -->
+    <section class="section problem" id="problem">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow reveal">The problem</p>
+          <h2 class="reveal">The back office is where freight slows down.</h2>
+          <p class="lede reveal">
+            Every shipment out of Australia drags a paper trail behind it — bills of lading,
+            commercial invoices, packing lists, certificates of origin — stacked with Australian Border
+            Force and biosecurity clearance rules. All of it typed, checked and re-checked by hand.
+          </p>
+          <ul class="checklist reveal">
+            <li>Brokers re-type the same shipment details from emails, PDFs and spreadsheets, all day.</li>
+            <li>A 20-line carrier invoice averages at least one wrong field — invisible until a dispute surfaces.</li>
+            <li>One misclassified tariff code can hold a container at the wharf for days.</li>
+          </ul>
+        </div>
+        <figure class="media reveal-img">
+          <img src="assets/img/trucks-queue.jpg" alt="Queue of trucks waiting in line" loading="lazy" />
+          <figcaption>Back-office friction becomes physical queues.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ROAD STRIP 1 ===== -->
+    <div class="road road--light-top" aria-hidden="true">
+      <svg class="road__truck" viewBox="0 0 132 62">
+        <rect class="t-box" x="2" y="8" width="78" height="34" rx="5"/>
+        <path class="t-cab" d="M84 18h22c3 0 5 1.4 6.6 3.8l8 12c1 1.5 1.4 3 1.4 4.8V42a4 4 0 0 1-4 4H84V18z"/>
+        <rect class="t-win" x="88" y="22" width="14" height="10" rx="2"/>
+        <rect class="t-base" x="2" y="42" width="116" height="5" rx="2.5"/>
+        <g class="wheel" style="transform-origin:30px 51px"><circle cx="30" cy="51" r="9" class="w-tyre"/><circle cx="30" cy="51" r="4" class="w-hub"/><rect x="29" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:62px 51px"><circle cx="62" cy="51" r="9" class="w-tyre"/><circle cx="62" cy="51" r="4" class="w-hub"/><rect x="61" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:101px 51px"><circle cx="101" cy="51" r="9" class="w-tyre"/><circle cx="101" cy="51" r="4" class="w-hub"/><rect x="100" y="43.5" width="2" height="15" class="w-spoke"/></g>
+      </svg>
+    </div>
+
+    <!-- ===== PRODUCT / CORE WEDGE (light) ===== -->
+    <section class="section section--light product" id="product">
+      <div class="container">
+        <p class="eyebrow reveal">The product</p>
+        <h2 class="reveal">One engine. Two capabilities.</h2>
+        <p class="lede reveal">We start narrow and prove ROI with real customers — then extend the same engine into the part nobody else handles: Australian export compliance.</p>
+
+        <div class="product__cards">
+          <article class="pcard reveal-card">
+            <div class="pcard__media"><img src="assets/img/truck-warehouse.jpg" alt="Freight truck parked at a warehouse door" loading="lazy" /></div>
+            <div class="pcard__body">
+              <span class="pcard__tag">Part A · Order entry — the easy sell</span>
+              <h3>AtlasIQ&nbsp;Extract</h3>
+              <p>An AI agent reads incoming shipment requests — emails, PDFs, spreadsheets from shippers
+              or exporters — and automatically builds the load record: cargo details, weight, dimensions,
+              origin/destination, pricing lookup. Stop retyping shipment details.</p>
+            </div>
+          </article>
+          <article class="pcard pcard--accent reveal-card">
+            <div class="pcard__media"><img src="assets/img/containers-aerial.jpg" alt="Aerial view of shipping containers in a port" loading="lazy" /></div>
+            <div class="pcard__body">
+              <span class="pcard__tag">Part B · Compliance — our actual moat</span>
+              <h3>AtlasIQ&nbsp;Comply</h3>
+              <p>The same extraction engine drafts the certificate of origin, biosecurity declaration,
+              correct tariff/HS classification and bill of lading — flagging mismatches <em>before</em>
+              they cause a customs hold or a shipment claim.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="v1banner reveal">
+          <span class="v1banner__tag">Shipping first · v1</span>
+          <div>
+            <strong>Order-entry automation.</strong>
+            <p>Fast, provable ROI — the thing that gets our first Australian customers in the door.
+            Compliance drafting follows on the same engine.</p>
+          </div>
+        </div>
+
+        <!-- animated pipeline -->
+        <div class="pipeline reveal" id="pipeline" aria-label="How AtlasIQ processes a shipment">
+          <div class="pipeline__node">
+            <span class="pipeline__icon">📥</span>
+            <strong>Inbox</strong>
+            <span>Emails · PDFs · sheets</span>
+          </div>
+          <div class="pipeline__flow"><svg viewBox="0 0 120 8" preserveAspectRatio="none"><line x1="0" y1="4" x2="120" y2="4" stroke-dasharray="6 6"/></svg><span class="pipeline__dot"></span></div>
+          <div class="pipeline__node pipeline__node--core">
+            <span class="pipeline__icon">◆</span>
+            <strong>AtlasIQ agent</strong>
+            <span>Extract · classify · draft</span>
+          </div>
+          <div class="pipeline__flow"><svg viewBox="0 0 120 8" preserveAspectRatio="none"><line x1="0" y1="4" x2="120" y2="4" stroke-dasharray="6 6"/></svg><span class="pipeline__dot pipeline__dot--b"></span></div>
+          <div class="pipeline__node">
+            <span class="pipeline__icon">📤</span>
+            <strong>Ready to ship</strong>
+            <span>Load record · CoO · HS codes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY (pinned scrollytelling, dark) ===== -->
+    <section class="corridor" id="journey">
+      <div class="corridor__pin">
+        <div class="container corridor__layout">
+          <div class="corridor__copy">
+            <p class="eyebrow">How it works</p>
+            <h2>Follow one shipment<br />through <em>AtlasIQ</em>.</h2>
+            <div class="corridor__steps">
+              <div class="cstep" data-step="0"><strong>A request lands</strong><p>An email, PDF or spreadsheet arrives from a shipper — the same message your team retypes today.</p></div>
+              <div class="cstep" data-step="1"><strong>The agent extracts</strong><p>Cargo details, weight, dimensions, origin and destination — pulled out in seconds, not keystrokes.</p></div>
+              <div class="cstep" data-step="2"><strong>The load record builds itself</strong><p>Complete with pricing lookup. No retyping, no missed fields.</p></div>
+              <div class="cstep" data-step="3"><strong>Compliance drafts appear</strong><p>Certificate of origin, biosecurity declaration, HS classification, bill of lading — drafted from the same data.</p></div>
+              <div class="cstep" data-step="4"><strong>Mismatches flagged early</strong><p>Before submission — not after the customs hold or the shipment claim.</p></div>
+            </div>
+          </div>
+          <div class="corridor__map">
+            <svg id="corridorSvg" viewBox="0 0 520 560" fill="none" aria-hidden="true">
+              <defs>
+                <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#FFA028" stop-opacity=".9"/>
+                  <stop offset="100%" stop-color="#FFA028" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <g class="corridor__grid"></g>
+              <path id="routeGhost" d="M456 470 C 400 440, 340 390, 310 330 C 280 272, 250 240, 205 205 C 165 172, 140 150, 118 122 C 100 100, 88 92, 70 78" />
+              <path id="routePath" d="M456 470 C 400 440, 340 390, 310 330 C 280 272, 250 240, 205 205 C 165 172, 140 150, 118 122 C 100 100, 88 92, 70 78" />
+              <g class="wp" data-wp="0" transform="translate(456 470)"><circle r="24" fill="url(#gGlow)" opacity=".55" class="wp__glow"/><circle r="6" class="wp__dot"/><text x="-18" y="5" text-anchor="end">REQUEST IN</text></g>
+              <g class="wp" data-wp="1" transform="translate(310 330)"><circle r="5" class="wp__dot"/><text x="16" y="5">EXTRACTED</text></g>
+              <g class="wp" data-wp="2" transform="translate(205 205)"><circle r="5" class="wp__dot"/><text x="16" y="5">LOAD BUILT</text></g>
+              <g class="wp" data-wp="3" transform="translate(118 122)"><circle r="5" class="wp__dot"/><text x="16" y="5">DOCS DRAFTED</text></g>
+              <g class="wp" data-wp="4" transform="translate(70 78)"><circle r="24" fill="url(#gGlow)" opacity=".55" class="wp__glow"/><circle r="6" class="wp__dot"/><text x="16" y="-12">CLEARED TO SHIP</text></g>
+              <g id="vessel">
+                <g class="mini-truck">
+                  <rect x="-16" y="-11" width="20" height="11" rx="2" class="t-box"/>
+                  <path d="M5 -8h6c1.2 0 2 .5 2.6 1.4l2.6 3.8c.4.6.6 1.2.6 1.9V0a1.6 1.6 0 0 1-1.6 1.6H5V-8z" class="t-cab"/>
+                  <circle cx="-9" cy="2.6" r="3" class="w-tyre"/>
+                  <circle cx="9" cy="2.6" r="3" class="w-tyre"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRESS TRACKER (warm dark) ===== -->
+    <section class="section section--warm progress" id="progress">
+      <div class="container">
+        <div class="progress__head">
+          <div>
+            <p class="eyebrow reveal">Building in public</p>
+            <h2 class="reveal">Where we are right now.</h2>
+          </div>
+          <div class="progress__status reveal">
+            <span class="pulse"></span> Live status · <span id="statusDate">July 2026</span>
+          </div>
+        </div>
+
+        <div class="timeline" id="timeline"><!-- milestones injected by js/main.js --></div>
+      </div>
+    </section>
+
+    <!-- ===== ROAD STRIP 2 (reversed) ===== -->
+    <div class="road road--reverse road--light-bottom" aria-hidden="true">
+      <svg class="road__truck" viewBox="0 0 132 62">
+        <rect class="t-box" x="2" y="8" width="78" height="34" rx="5"/>
+        <path class="t-cab" d="M84 18h22c3 0 5 1.4 6.6 3.8l8 12c1 1.5 1.4 3 1.4 4.8V42a4 4 0 0 1-4 4H84V18z"/>
+        <rect class="t-win" x="88" y="22" width="14" height="10" rx="2"/>
+        <rect class="t-base" x="2" y="42" width="116" height="5" rx="2.5"/>
+        <g class="wheel" style="transform-origin:30px 51px"><circle cx="30" cy="51" r="9" class="w-tyre"/><circle cx="30" cy="51" r="4" class="w-hub"/><rect x="29" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:62px 51px"><circle cx="62" cy="51" r="9" class="w-tyre"/><circle cx="62" cy="51" r="4" class="w-hub"/><rect x="61" y="43.5" width="2" height="15" class="w-spoke"/></g>
+        <g class="wheel" style="transform-origin:101px 51px"><circle cx="101" cy="51" r="9" class="w-tyre"/><circle cx="101" cy="51" r="4" class="w-hub"/><rect x="100" y="43.5" width="2" height="15" class="w-spoke"/></g>
+      </svg>
+    </div>
+
+    <!-- ===== TEAM (light) ===== -->
+    <section class="section section--light team" id="team">
+      <div class="container">
+        <p class="eyebrow reveal">The team</p>
+        <h2 class="reveal">Three founders. Three lanes.</h2>
+        <p class="lede reveal">The build is split three ways so no single person is a bottleneck on shipping.</p>
+
+        <div class="team__grid">
+          <article class="tcard reveal-card">
+            <div class="tcard__avatar"><span>JH</span></div>
+            <h3>Jay-deane Huni</h3>
+            <span class="tcard__role">Founder · CEO</span>
+            <p>Backend &amp; web engineering, strategy, partnerships and fundraising. Owns the customer conversations — and the plan.</p>
+          </article>
+          <article class="tcard reveal-card">
+            <div class="tcard__avatar"><span>JB</span></div>
+            <h3>Jake Bishop</h3>
+            <span class="tcard__role">Co-founder · COO</span>
+            <p>Product experience, growth, social and customer success. Runs the pilot programme day-to-day and turns results into case studies and paying customers.</p>
+          </article>
+          <article class="tcard reveal-card">
+            <div class="tcard__avatar"><span>AS</span></div>
+            <h3>Aone Senai</h3>
+            <span class="tcard__role">Co-founder · CTO</span>
+            <p>AI agents &amp; data engineering. Owns the extraction, classification and drafting core — and the accuracy evaluation that makes compliance drafts trustworthy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA (dark) ===== -->
+    <section class="section cta" id="contact">
+      <div class="container cta__box reveal">
+        <h2>Get early access.</h2>
+        <p>We're onboarding a small number of Australian exporters, brokers, growers and fleets for free
+        pilots — in exchange for honest feedback. Your documents, our agents, real ROI numbers.</p>
+        <div class="cta__actions">
+          <a class='btn' href='/waitlist'>Join the pilot waitlist</a>
+          <a class="btn btn--ghost" href="mailto:admin@atlasiqco.com?subject=AtlasIQ%20demo">Book a demo</a>
+        </div>
+        <span class="cta__note wl--nocount" data-wl-wrap>
+          <span class="when-count"><strong data-wl-count>0</strong> people are already in line · Pilot spots are limited.</span>
+          <span class="when-nocount">Pilot spots are limited.</span>
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="nav__logo" href="#top"><span class="nav__mark"></span><span class="nav__word">Atlas<em>IQ</em></span></a>
+        <p>AI agents for freight order entry &amp; compliance.<br />Built in Australia.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Site</strong>
+        <a href="#product">Product</a>
+        <a href="#journey">How it works</a>
+        <a href="#progress">Progress</a>
+        <a href='/waitlist'>Waitlist</a>
+      </div>
+      <div class="footer__col">
+        <strong>Contact</strong>
+        <a href="mailto:admin@atlasiqco.com">admin@atlasiqco.com</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <span>Perth, Australia</span>
+      </div>
+    </div>
+    <div class="container footer__base">
+      <span>© 2026 AtlasIQ. All rights reserved.</span>
+      <span>Open water ahead.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

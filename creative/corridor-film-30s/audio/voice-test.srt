@@ -1,0 +1,8 @@
+1
+00:00:00,050 --> 00:00:03,986
+Across the Nullarbor, every shipment depends on a connection.
+
+2
+00:00:03,986 --> 00:00:06,047
+But conditions can change.
+

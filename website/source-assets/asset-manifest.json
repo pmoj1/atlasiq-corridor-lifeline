@@ -1,0 +1,147 @@
+{
+  "prepared_on": "2026-10-13",
+  "source": "Founder-supplied Unsplash files; photographer names and photo IDs taken from filenames.",
+  "originals": [
+    {
+      "filename": "barrett-ward-5WQJ_ejZ7y8-unsplash.jpg",
+      "sha256": "0c9e7312bf880002fda8c9f3d836b71c4ef8ec3d90c69e389eb20e00394c17f8",
+      "bytes": 1981352
+    },
+    {
+      "filename": "bernd-dittrich-eCc7FjMoR74-unsplash.jpg",
+      "sha256": "106e9921205dabb59d487f7182f7bf199d57f0ce61c1872df9f9e0f704675c14",
+      "bytes": 1928570
+    },
+    {
+      "filename": "dominik-vanyi-Mk2ls9UBO2E-unsplash.jpg",
+      "sha256": "f6c9625cac72ad355297059e6218512ff81625e3343c0e7fa9b534e3fc927c18",
+      "bytes": 3693499
+    },
+    {
+      "filename": "gabriel-santos-GBVDilE8yvI-unsplash.jpg",
+      "sha256": "00569c09d8b83c74498fcdc595f509232d4df63ea533778b61fbc0cbd1718113",
+      "bytes": 4321517
+    },
+    {
+      "filename": "levi-meir-clancy-i7-s2wuykiU-unsplash.jpg",
+      "sha256": "c047da9931dfe93cf5dc5058112a3c82dd99ac0033d8241fc032c8fde6e57dd5",
+      "bytes": 4301021
+    },
+    {
+      "filename": "marcin-jozwiak-oh0DITWoHi4-unsplash.jpg",
+      "sha256": "bcb371632bba7ea01609659054fbf10e688b2a6645891e0ab7a20dc454a4e55b",
+      "bytes": 4589310
+    },
+    {
+      "filename": "miningwatch-portugal-YG0qc-e6hgg-unsplash.jpg",
+      "sha256": "71db91bbe73c2ed231e8ac036804c36289e22d12e9d6b73c82bb3e095cd73deb",
+      "bytes": 6203377
+    },
+    {
+      "filename": "sergej-9zBpAIrSSuY-unsplash.jpg",
+      "sha256": "cd619b5d27d133ba65eb0064bce4651f4c85b2001ab03bc270e29cf82ad0d91c",
+      "bytes": 8081810
+    }
+  ],
+  "derivatives": [
+    {
+      "filename": "photos/corridor-truck-800.webp",
+      "source": "levi-meir-clancy-i7-s2wuykiU-unsplash.jpg",
+      "photographer": "Levi Meir Clancy",
+      "photo_id": "i7-s2wuykiU",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 46394
+    },
+    {
+      "filename": "photos/corridor-truck-1440.webp",
+      "source": "levi-meir-clancy-i7-s2wuykiU-unsplash.jpg",
+      "photographer": "Levi Meir Clancy",
+      "photo_id": "i7-s2wuykiU",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 130112
+    },
+    {
+      "filename": "photos/corridor-truck-2200.webp",
+      "source": "levi-meir-clancy-i7-s2wuykiU-unsplash.jpg",
+      "photographer": "Levi Meir Clancy",
+      "photo_id": "i7-s2wuykiU",
+      "dimensions": [
+        2200,
+        1467
+      ],
+      "bytes": 260184
+    },
+    {
+      "filename": "photos/freight-on-road-800.webp",
+      "source": "gabriel-santos-GBVDilE8yvI-unsplash.jpg",
+      "photographer": "Gabriel Santos",
+      "photo_id": "GBVDilE8yvI",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 57026
+    },
+    {
+      "filename": "photos/freight-on-road-1440.webp",
+      "source": "gabriel-santos-GBVDilE8yvI-unsplash.jpg",
+      "photographer": "Gabriel Santos",
+      "photo_id": "GBVDilE8yvI",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 160510
+    },
+    {
+      "filename": "photos/warehouse-800.webp",
+      "source": "marcin-jozwiak-oh0DITWoHi4-unsplash.jpg",
+      "photographer": "Marcin Jozwiak",
+      "photo_id": "oh0DITWoHi4",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 71944
+    },
+    {
+      "filename": "photos/warehouse-1440.webp",
+      "source": "marcin-jozwiak-oh0DITWoHi4-unsplash.jpg",
+      "photographer": "Marcin Jozwiak",
+      "photo_id": "oh0DITWoHi4",
+      "dimensions": [
+        1440,
+        959
+      ],
+      "bytes": 188700
+    },
+    {
+      "filename": "photos/industry-800.webp",
+      "source": "miningwatch-portugal-YG0qc-e6hgg-unsplash.jpg",
+      "photographer": "MiningWatch Portugal",
+      "photo_id": "YG0qc-e6hgg",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 164660
+    },
+    {
+      "filename": "photos/industry-1440.webp",
+      "source": "miningwatch-portugal-YG0qc-e6hgg-unsplash.jpg",
+      "photographer": "MiningWatch Portugal",
+      "photo_id": "YG0qc-e6hgg",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 530050
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+1
+00:00:00,050 --> 00:00:03,904
+Across the Nullarbor, every shipment depends on a connection.
+
+2
+00:00:03,904 --> 00:00:05,922
+But conditions can change.
+
+3
+00:00:05,922 --> 00:00:12,185
+Atlas IQ's Corridor Lifeline concept brings weather, rainfall and rail signals into focus.
+
+4
+00:00:12,185 --> 00:00:18,305
+So your team can review the risk, plan its response, and prepare emergency paperwork drafts.
+
+5
+00:00:18,305 --> 00:00:19,711
+Clear signals.
+
+6
+00:00:19,711 --> 00:00:21,208
+Prepared people.
+
+7
+00:00:21,208 --> 00:00:22,732
+Atlas IQ.
+

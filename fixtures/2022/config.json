@@ -1,0 +1,44 @@
+{
+  "corridor": "East-west rail: Port Augusta - Tarcoola - Rawlinna - Kalgoorlie",
+  "warning_keywords": [
+    "Tarcoola",
+    "Rawlinna",
+    "Kalgoorlie",
+    "Eucla",
+    "Goldfields",
+    "North West Pastoral"
+  ],
+  "as_of": "2022-02-15T08:00:00+00:00",
+  "fixture_note": "Sourced historical rail event snapshot, with illustrative BOM-format weather/warnings. Exact intraday timestamps are scenario assumptions, not recovered publication times. Not a predictive backtest.",
+  "event_facts": [
+    {
+      "fact": "ARTC reports operations resumed on 15 February after a 24-day repair operation.",
+      "source": "https://www.artc.com.au/2022/02/15/south-australia-flooding-and-track-closure-update/"
+    },
+    {
+      "fact": "ARTC describes rainfall and flooding on 21-23 January, with more than 200 mm in 24 hours in the event region. This regional figure is not used as station rainfall.",
+      "source": "https://www.artc.com.au/2022/02/15/south-australia-flooding-and-track-closure-update/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Illustrative BOM weather",
+      "kind": "weather",
+      "source": "weather.json",
+      "max_age_minutes": 180
+    },
+    {
+      "name": "Illustrative BOM warnings",
+      "kind": "warnings",
+      "source": "warnings.xml",
+      "max_age_minutes": 180
+    },
+    {
+      "name": "Historical rail snapshot",
+      "kind": "rail",
+      "source": "rail.json",
+      "max_age_minutes": 1440,
+      "corridor_id": "east-west"
+    }
+  ]
+}

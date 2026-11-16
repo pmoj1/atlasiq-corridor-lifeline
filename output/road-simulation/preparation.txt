@@ -1,0 +1,15 @@
+SIMULATION — SYNTHETIC WEATHER INPUTS
+PREPARATION DRAFT · HUMAN REVIEW REQUIRED
+Contingency road access enquiry
+Road: Wilson Street, Port Hedland
+Prepared: 2026-11-09T06:00:00+00:00
+Times are model valid times; rain is the preceding hour accumulation and wind is instantaneous.
+Reason: forecast exposure meets the planning threshold (5 mm/h precipitation or 50 km/h wind).
+Mapped start | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h
+Mapped midpoint | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h
+Mapped end | 2026-11-09T12:00:00+00:00 to 2026-11-09T15:00:00+00:00 | peak hourly precipitation 12 mm, sustained wind 22 km/h
+Forecast retrieved: 2026-11-09T06:00:00+00:00
+Model schema reference only — synthetic inputs used. ECMWF AIFS Single via Open-Meteo · https://api.open-meteo.com/v1/forecast?latitude=-20.312010291613703%2C-20.312313294441804%2C-20.314220804292766&longitude=118.60621870898636%2C118.59020047904934%2C118.57810758237503&hourly=temperature_2m%2Cprecipitation%2Cwind_speed_10m&forecast_hours=48&models=ecmwf_aifs025_single&timezone=GMT
+Road status: requires confirmation.
+Complete: responsible authority, applicable permit, applicant, vehicle/load, alternate route, movement window and supporting evidence.
+Submission: pending planner review.

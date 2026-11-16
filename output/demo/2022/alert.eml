@@ -1,0 +1,37 @@
+Subject: [DEMO] Corridor Lifeline | LOW | East-west rail: Port Augusta -
+ Tarcoola - Rawlinna - Kalgoorlie
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Corridor: East-west rail: Port Augusta - Tarcoola - Rawlinna - Kalgoorlie
+As of: 2022-02-15T08:00:00+00:00 (UTC)
+Risk indicator: LOW - 0/100.
+Data coverage: complete for configured inputs.
+Latest usable rail input: open.
+
+What this means:
+Continue routine checks with your rail operator; this score does not confirm =
+the route is safe or open.
+
+Why this score:
+- Tarcoola (ILLUSTRATIVE): 0 mm since local 9 am (+0 rainfall points; station=
+ maximum used).
+- Rail input reports open: ARTC reports operations resumed between Adelaide a=
+nd Tarcoola after flood repairs. (+0 rail points).
+
+The score adds rainfall, warning and rail points, capped at 100. It is a rule=
+-based indicator, not a closure probability or an advance-warning guarantee.
+Rainfall is since local 9 am, not a rolling 24-hour total. Warning matches ne=
+ed manual geographic confirmation.
+
+Sources:
+- https://www.artc.com.au/2022/02/15/south-australia-flooding-and-track-closu=
+re-update/
+- rail.json
+- warnings.xml
+- weather.json
+
+DEMO ONLY: event facts are sourced; weather and warning adapter inputs are il=
+lustrative. Replay timestamps are scenario clocks. This is not a validated hi=
+storical backtest.

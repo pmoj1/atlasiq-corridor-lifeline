@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-13",
+  "deployment": "not published; existing Netlify project login required",
+  "independent_review": "passed; no blocking findings",
+  "static_checks": [
+    "local links and fragments",
+    "unique IDs and image alt attributes",
+    "SVG XML parsing",
+    "bundled Node JavaScript syntax",
+    "fallback, reduced-motion and anchor event checks"
+  ],
+  "browser_checks": {
+    "mobile_width": 390,
+    "desktop_width": 1440,
+    "horizontal_overflow": false,
+    "broken_homepage_images": 0,
+    "founder_cards": 1,
+    "mobile_product_anchor_top_px": 88.28125,
+    "desktop_founder_deep_link_top_px": 87.609375,
+    "home_anchor_scroll_y": 0,
+    "interest_page": "mailto destination verified; no message sent"
+  },
+  "organisation": {
+    "files": 58,
+    "hashes_verified": true,
+    "external_originals": "preserved"
+  },
+  "archive": {
+    "path": "AtlasIQ-Corridor-Lifeline-website.zip",
+    "files": 5,
+    "integrity": "passed"
+  },
+  "product_tests": "not run; product code unchanged"
+}

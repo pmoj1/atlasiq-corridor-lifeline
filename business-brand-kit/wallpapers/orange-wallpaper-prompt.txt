@@ -1,0 +1,2 @@
+Built-in image generation; reference: ../logos/atlasiq-mark-dark-background.png.
+Create a portrait iPhone wallpaper around 9:19.5. Preserve the flat geometric amber A mark and dark ink background. Centre the mark below clock space; leave bottom controls clear. No text, blue, 3D, glow, phone frame or mockup. Requested colours: #E9AA4B and #0B0E10.

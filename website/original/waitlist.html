@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join the pilot waitlist — AtlasIQ</title>
+  <meta name="description" content="Join the AtlasIQ pilot waitlist — AI agents that automate order entry and compliance documentation for Australian exporters and freight brokers." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FFA028'/%3E%3Cpath d='M18 44 32 18l14 26h-8l-6-12-6 12z' fill='%2305080F'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ---- waitlist page ---- */
+    .wlpage {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1.05fr;
+      padding-top: var(--nav-h);
+    }
+    .wlpage__side {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 60px clamp(24px, 4.5vw, 64px);
+    }
+    .wlpage__side img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .wlpage__side::after {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(5,8,15,.72), rgba(5,8,15,.55) 45%, rgba(5,8,15,.93) 85%);
+      z-index: 1;
+    }
+    .wlpage__side img { z-index: 0; }
+    .wlpage__side > div { position: relative; z-index: 2; }
+    .wlpage__side h1 { font-size: clamp(1.9rem, 3.2vw, 3rem); line-height: 1.08; font-weight: 700; margin: 14px 0 16px; }
+    .wlpage__side p { color: #C3CDDC; max-width: 46ch; }
+    .wlpage__perks { list-style: none; margin: 26px 0 6px; display: grid; gap: 12px; padding: 0; }
+    .wlpage__perks li { display: flex; gap: 12px; align-items: flex-start; color: #C3CDDC; font-size: .95rem; }
+    .wlpage__perks li::before {
+      content: "✓";
+      flex: none;
+      width: 22px; height: 22px;
+      display: grid; place-items: center;
+      border-radius: 7px;
+      background: var(--accent-soft);
+      border: 1px solid rgba(255,160,40,.4);
+      color: var(--accent);
+      font-size: .75rem; font-weight: 700;
+    }
+    .wlpage__form {
+      background: var(--ink-2);
+      border-left: 1px solid var(--line);
+      padding: 56px clamp(24px, 4.5vw, 72px) 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .wlcard { max-width: 560px; width: 100%; margin-inline: auto; }
+    .wlcard h2 { font-size: clamp(1.6rem, 2.4vw, 2.2rem); margin-bottom: 8px; }
+    .wlcard__sub { color: var(--muted); margin-bottom: 34px; font-size: .98rem; }
+
+    .field { margin-bottom: 18px; }
+    .field label {
+      display: block;
+      font-family: var(--font-display);
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: #C3CDDC;
+      margin-bottom: 8px;
+    }
+    .req { color: var(--accent); }
+    .field input, .field select {
+      width: 100%;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 1rem;
+      font-family: var(--font-body);
+      color: var(--text);
+      transition: border-color .25s ease, box-shadow .25s ease;
+      appearance: none;
+    }
+    .field select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2393A1B5' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+    }
+    .field input:focus, .field select:focus {
+      outline: none;
+      border-color: rgba(255,160,40,.6);
+      box-shadow: 0 0 0 4px rgba(255,160,40,.12);
+    }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+    .wl-submit { width: 100%; justify-content: center; margin-top: 10px; font-size: 1rem; }
+    .wl-submit:disabled { opacity: .55; pointer-events: none; }
+    .fine { font-size: .8rem; color: var(--muted); text-align: center; margin-top: 16px; }
+
+    .error-msg {
+      display: none;
+      background: rgba(244, 63, 94, .1);
+      border: 1px solid rgba(244, 63, 94, .35);
+      color: #FDA4AF;
+      font-size: .9rem;
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+    }
+    .error-msg.show { display: block; }
+
+    .success { display: none; text-align: center; padding: 30px 0 10px; }
+    .success.show { display: block; }
+    .success__icon {
+      width: 72px; height: 72px;
+      margin: 0 auto 22px;
+      border-radius: 24px;
+      display: grid; place-items: center;
+      font-size: 1.9rem;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid rgba(255,160,40,.45);
+      box-shadow: 0 0 50px rgba(255,160,40,.25);
+    }
+    .success h2 { margin-bottom: 10px; }
+    .success p { color: var(--muted); max-width: 40ch; margin: 0 auto 28px; }
+
+    @media (max-width: 980px) {
+      .wlpage { grid-template-columns: 1fr; }
+      .wlpage__side { min-height: 46vh; }
+      .wlpage__form { border-left: none; border-top: 1px solid var(--line); }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="nav is-scrolled" id="nav">
+    <a aria-label='AtlasIQ home' class='nav__logo' href='/'>
+      <span class="nav__mark"></span>
+      <span class="nav__word">Atlas<em>IQ</em></span>
+    </a>
+    <a class='btn btn--ghost btn--small' href='/'>← Back to site</a>
+  </header>
+
+  <main class="wlpage">
+    <aside class="wlpage__side">
+      <img src="assets/img/port-cranes.jpg" alt="Container port with gantry cranes at dusk" />
+      <div>
+        <p class="eyebrow">Pilot waitlist</p>
+        <h1>Be first in line when pilot spots open.</h1>
+        <p>We're onboarding a small number of Australian exporters, brokers, growers and fleets —
+        free pilots, on your own documents, in exchange for honest feedback.</p>
+        <ul class="wlpage__perks">
+          <li>Early access to the v1 order-entry agent</li>
+          <li>Founding-customer pricing, locked in</li>
+          <li>Direct line to the founders during the pilot</li>
+        </ul>
+        <a class="wl-pill wl--nocount" href="#wlForm" data-wl-wrap>
+          <span class="pulse"></span>
+          <span class="when-count"><strong data-wl-count>0</strong>&nbsp;already registered</span>
+          <span class="when-nocount">Registrations open now</span>
+        </a>
+      </div>
+    </aside>
+
+    <section class="wlpage__form" id="wlForm">
+      <div class="wlcard">
+        <div id="formView">
+          <h2>Join the pilot waitlist</h2>
+          <p class="wlcard__sub">Takes 30 seconds. We'll confirm by email straight away.</p>
+
+          <form id="waitlistForm" novalidate>
+            <div class="error-msg" id="errorMsg">Please fill in the required fields.</div>
+
+            <div class="field">
+              <label for="f-name">Full name <span class="req">*</span></label>
+              <input id="f-name" type="text" name="fullName" autocomplete="name" required />
+            </div>
+
+            <div class="field">
+              <label for="f-company">Company name <span class="req">*</span></label>
+              <input id="f-company" type="text" name="company" autocomplete="organization" required />
+            </div>
+
+            <div class="two-col">
+              <div class="field">
+                <label for="f-role">Role <span class="req">*</span></label>
+                <select id="f-role" name="role" required>
+                  <option value="">Select…</option>
+                  <option>Freight broker</option>
+                  <option>Exporter / shipper</option>
+                  <option>Customs agent</option>
+                  <option>Trucking fleet owner/operator</option>
+                  <option>Grain grower / agribusiness</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-size">Company size</label>
+                <select id="f-size" name="companySize">
+                  <option value="">Select…</option>
+                  <option>Just me / sole trader</option>
+                  <option>2–10 employees</option>
+                  <option>11–50 employees</option>
+                  <option>51–200 employees</option>
+                  <option>200+ employees</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-location">Location <span class="req">*</span></label>
+              <select id="f-location" name="location" required>
+                <option value="">Select…</option>
+                <option>Western Australia</option>
+                <option>Other Australia</option>
+                <option>Africa</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="two-col">
+              <div class="field">
+                <label for="f-email">Email <span class="req">*</span></label>
+                <input id="f-email" type="email" name="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone (optional)</label>
+                <input id="f-phone" type="tel" name="phone" autocomplete="tel" />
+              </div>
+            </div>
+
+            <button type="submit" class="btn wl-submit" id="submitBtn">Join the pilot waitlist</button>
+            <p class="fine">We'll only use this to reach out about AtlasIQ early access. No spam.</p>
+          </form>
+        </div>
+
+        <div class="success" id="successView">
+          <div class="success__icon">✓</div>
+          <h2>You're on the list.</h2>
+          <p>Thanks for joining the AtlasIQ pilot waitlist — check your inbox for a confirmation.
+          We'll be in touch as pilot spots open.</p>
+          <a class='btn btn--ghost' href='/'>Back to the site</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Google Apps Script Web App endpoint (handles the registration + confirmation email)
+    const APPS_SCRIPT_URL =
+      "https://script.google.com/macros/s/AKfycbywPnTvachGE1UISZHB5uMHncTxuanwQwVoOKds9nPwplyHahzkoSajNhFD2L_mHOxdQQ/exec";
+
+    const form = document.getElementById("waitlistForm");
+    const formView = document.getElementById("formView");
+    const successView = document.getElementById("successView");
+    const errorMsg = document.getElementById("errorMsg");
+    const submitBtn = document.getElementById("submitBtn");
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      errorMsg.classList.remove("show");
+
+      const fd = new FormData(form);
+      const fullName = (fd.get("fullName") || "").trim();
+      const company = (fd.get("company") || "").trim();
+      const role = fd.get("role");
+      const location = fd.get("location");
+      const email = (fd.get("email") || "").trim();
+
+      if (!fullName || !company || !role || !location || !email) {
+        errorMsg.textContent = "Please fill in all required fields.";
+        errorMsg.classList.add("show");
+        return;
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        errorMsg.textContent = "Please enter a valid email address.";
+        errorMsg.classList.add("show");
+        return;
+      }
+
+      const entry = {
+        fullName, company, role, location, email,
+        companySize: fd.get("companySize") || "",
+        phone: fd.get("phone") || "",
+        submittedAt: new Date().toISOString(),
+      };
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Submitting…";
+
+      try {
+        await fetch(APPS_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify(entry),
+        });
+        // bump the cached count so the site reflects the signup immediately
+        try {
+          const cached = JSON.parse(localStorage.getItem("atlasiq_wl_count"));
+          if (cached && typeof cached.count === "number") {
+            localStorage.setItem("atlasiq_wl_count",
+              JSON.stringify({ count: cached.count + 1, ts: cached.ts }));
+          }
+        } catch (_) { /* ignore */ }
+
+        formView.style.display = "none";
+        successView.classList.add("show");
+      } catch (err) {
+        errorMsg.textContent = "Something went wrong submitting the form. Please try again.";
+        errorMsg.classList.add("show");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Join the pilot waitlist";
+      }
+    });
+
+    // live count pill (same endpoint, GET returns {"count": N})
+    (async function () {
+      const els = document.querySelectorAll("[data-wl-count]");
+      if (!els.length) return;
+      try {
+        const cached = JSON.parse(localStorage.getItem("atlasiq_wl_count"));
+        if (cached && typeof cached.count === "number") show(cached.count);
+      } catch (_) { /* ignore */ }
+      try {
+        const res = await fetch(APPS_SCRIPT_URL);
+        const data = await res.json();
+        if (typeof data.count === "number") {
+          show(data.count);
+          localStorage.setItem("atlasiq_wl_count", JSON.stringify({ count: data.count, ts: Date.now() }));
+        }
+      } catch (_) { /* keep fallback */ }
+      function show(n) {
+        els.forEach((el) => (el.textContent = n));
+        document.querySelectorAll("[data-wl-wrap]").forEach((w) => w.classList.remove("wl--nocount"));
+      }
+    })();
+  </script>
+</body>
+</html>

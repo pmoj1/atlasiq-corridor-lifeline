@@ -1,0 +1,73 @@
+{
+  "title": "AtlasIQ \u2014 Before the disruption",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 30,
+  "colours": {
+    "navy": "#071522",
+    "amber": "#FFA028",
+    "white": "#EAF0F9",
+    "slate": "#8193A5",
+    "red": "#C4797F",
+    "teal": "#80C7BA"
+  },
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4.8,
+      "headline": "A continent\nconnected.",
+      "purpose": "A shipment depends on the corridor"
+    },
+    {
+      "start": 4.8,
+      "end": 9,
+      "headline": "Conditions\ncan change.",
+      "purpose": "Weather changes the context"
+    },
+    {
+      "start": 9,
+      "end": 14.5,
+      "headline": "See the signals.",
+      "purpose": "Three signals resolve to an understandable warning"
+    },
+    {
+      "start": 14.5,
+      "end": 20,
+      "headline": "Plan your response.",
+      "purpose": "A clear alert supports a human planning decision"
+    },
+    {
+      "start": 20,
+      "end": 25.5,
+      "headline": "Arrive prepared.",
+      "purpose": "Documents are ready for human review"
+    },
+    {
+      "start": 25.5,
+      "end": 30,
+      "headline": "Anticipate disruption.\nPrepare your response.",
+      "purpose": "Brand resolution and invitation"
+    }
+  ],
+  "voice": {
+    "engine": "Microsoft neural speech via edge-tts",
+    "voice": "en-AU-WilliamNeural",
+    "synthetic": true,
+    "rate": "-4%",
+    "time_stretch": false
+  },
+  "layers": [
+    "photographic-plates",
+    "vehicle",
+    "atmosphere-map",
+    "interface",
+    "typography",
+    "logo",
+    "captions",
+    "voiceover",
+    "music",
+    "effects"
+  ],
+  "disclosure": "Generated illustrative photographic imagery with image-based compositing and animation; not live incident footage."
+}

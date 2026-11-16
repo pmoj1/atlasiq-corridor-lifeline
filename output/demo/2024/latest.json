@@ -1,0 +1,82 @@
+{
+  "corridor": "East-west rail: Port Augusta - Tarcoola - Rawlinna - Kalgoorlie",
+  "as_of": "2024-03-27T08:00:00+00:00",
+  "rule_version": "1.0",
+  "score": 100,
+  "level": "CRITICAL",
+  "components": {
+    "rainfall": 25,
+    "warnings": 30,
+    "rail": 100
+  },
+  "rail_status": "closed",
+  "coverage": "complete for configured inputs",
+  "reasons": [
+    "Rawlinna (ILLUSTRATIVE): 50 mm since local 9 am (+25 rainfall points; station maximum used).",
+    "Bureau of Meteorology: Illustrative Flood Warning for Rawlinna (+30 warning points; corridor place-name match).",
+    "Rail input reports closed: Flood closure between Kalgoorlie and Rawlinna; ARTC announces planned reopening on 30 March at noon WA time. (+100 rail points)."
+  ],
+  "issues": [],
+  "sources": [
+    "https://www.artc.com.au/2024/03/27/latest-news-2/",
+    "https://www.bom.gov.au/wa/warnings/",
+    "rail.json",
+    "warnings.xml",
+    "weather.json"
+  ],
+  "feeds": [
+    {
+      "name": "Illustrative BOM weather",
+      "kind": "weather",
+      "source": "weather.json",
+      "fetched_at": "2024-03-27T08:00:00+00:00",
+      "data": {
+        "observed_at": "2024-03-27T08:00:00+00:00",
+        "rain_since_9am_mm": 50.0,
+        "station": "Rawlinna (ILLUSTRATIVE)"
+      },
+      "health": "ok"
+    },
+    {
+      "name": "Illustrative BOM warnings",
+      "kind": "warnings",
+      "source": "warnings.xml",
+      "fetched_at": "2024-03-27T08:00:00+00:00",
+      "data": {
+        "observed_at": "2024-03-27T08:00:00+00:00",
+        "items": [
+          {
+            "title": "Illustrative Flood Warning for Rawlinna",
+            "description": "Synthetic warning used to exercise corridor matching, not an archived BOM warning.",
+            "url": "https://www.bom.gov.au/wa/warnings/"
+          }
+        ]
+      },
+      "health": "ok"
+    },
+    {
+      "name": "Historical rail snapshot",
+      "kind": "rail",
+      "source": "rail.json",
+      "fetched_at": "2024-03-27T08:00:00+00:00",
+      "data": {
+        "observed_at": "2024-03-27T08:00:00+00:00",
+        "status": "closed",
+        "source_url": "https://www.artc.com.au/2024/03/27/latest-news-2/",
+        "summary": "Flood closure between Kalgoorlie and Rawlinna; ARTC announces planned reopening on 30 March at noon WA time."
+      },
+      "health": "ok"
+    }
+  ],
+  "fixture_note": "Sourced historical rail event snapshot, with illustrative BOM-format weather/warnings. Exact intraday timestamps are scenario assumptions, not recovered publication times. Not a predictive backtest.",
+  "event_facts": [
+    {
+      "fact": "On 27 March ARTC announced reopening between Kalgoorlie and Rawlinna for 12 noon WA time on Saturday 30 March.",
+      "source": "https://www.artc.com.au/2024/03/27/latest-news-2/"
+    },
+    {
+      "fact": "An announced future reopening is not a confirmed current reopening.",
+      "source": "https://www.artc.com.au/2024/03/27/latest-news-2/"
+    }
+  ]
+}

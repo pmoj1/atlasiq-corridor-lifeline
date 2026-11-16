@@ -1,0 +1,17 @@
+{
+  "snapshot_time_utc": "2026-11-07T12:02:47.087756Z",
+  "snapshot_sha256": "cf05cc051a3fbcb7b4556dd6336b880a7e537df37d4823f11e53c19405554e75",
+  "route_sha256": "2137603747f4a2d60b22f9cea01504a63b7b3b486d89ccc63feeacda2393c747",
+  "schematic_sha256": "ec3dd5105e7ebbf0ba171bfc452625b329954ea2d577f599e40f49ee94d1376b",
+  "buffer_km_inclusive": 50,
+  "input_rows": 345,
+  "duplicate_rows": 0,
+  "unique_notices": 345,
+  "counts": {
+    "moved_in": 0,
+    "moved_out": 0,
+    "inside_both": 1,
+    "outside_both": 331,
+    "unlocated": 13
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "corridor": "East-west rail: Port Augusta - Tarcoola - Rawlinna - Kalgoorlie",
+  "warning_keywords": [
+    "Tarcoola",
+    "Rawlinna",
+    "Kalgoorlie",
+    "Eucla",
+    "Goldfields",
+    "North West Pastoral"
+  ],
+  "sources": [
+    {
+      "name": "BOM Kalgoorlie-Boulder",
+      "kind": "weather",
+      "source": "https://www.bom.gov.au/fwo/IDW60801/IDW60801.94637.json",
+      "max_age_minutes": 180
+    },
+    {
+      "name": "BOM WA warnings",
+      "kind": "warnings",
+      "source": "https://www.bom.gov.au/fwo/IDZ00067.warnings_land_wa.xml",
+      "max_age_minutes": 180
+    },
+    {
+      "name": "BOM SA warnings",
+      "kind": "warnings",
+      "source": "https://www.bom.gov.au/fwo/IDZ00064.warnings_land_sa.xml",
+      "max_age_minutes": 180
+    },
+    {
+      "name": "Operator-verified rail status",
+      "kind": "rail",
+      "source": "rail-status.json",
+      "max_age_minutes": 1440,
+      "corridor_id": "east-west"
+    }
+  ]
+}

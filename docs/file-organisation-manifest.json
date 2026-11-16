@@ -1,0 +1,353 @@
+{
+  "organised_on": "2026-10-13",
+  "records": [
+    {
+      "action": "move",
+      "from": "AtlasIQ_Corridor_Lifeline_Solo_Plan.pdf",
+      "to": "docs/plans/AtlasIQ_Corridor_Lifeline_Solo_Plan.pdf",
+      "sha256": "18f5a1cf7d4bb085021f7cce13685c3767a38701aa7da573e8a6526267e62d7f"
+    },
+    {
+      "action": "move",
+      "from": "product idea.mp4",
+      "to": "creative/references/product idea.mp4",
+      "sha256": "bd8ea0a9d5d234ac54c6220bef313b5cef7e0416582a5067f635b7352a359309"
+    },
+    {
+      "action": "move",
+      "from": "AtlasIQ-60s-voiceover.mp4",
+      "to": "creative/deliverables/AtlasIQ-60s-voiceover.mp4",
+      "sha256": "06ff2cbfeb81981b2018374e44b359e8016d4f8faeed9e5c6c99aff28e54806b"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/warnings -- 244a6ab286.md",
+      "to": "research/archive/knowledge-library/Sources/warnings -- 244a6ab286.md",
+      "sha256": "7c2d1241f18dee3b4e8dcfe982856d6f7228750f0cc5d470e89736044c3ca4ac"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Go-to-Market -- unavailable-4cb9557a.md",
+      "to": "research/archive/knowledge-library/Sources/Go-to-Market -- unavailable-4cb9557a.md",
+      "sha256": "c3ceb388eadaf3d0b7287d54b2b292becd98d14286cc28451ce7b7d9858bb765"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Pitch & Fundraising -- unavailable-00486b73.md",
+      "to": "research/archive/knowledge-library/Sources/Pitch & Fundraising -- unavailable-00486b73.md",
+      "sha256": "88b4ce15d615d80b49c97ead7d4db8329766aac66081be79cf8e67aa4bb554c5"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/\ud83c\udfa4 Pitch Script \u2014 Two-Person (Jaydeane + Aone) -- unavailable-405816da.md",
+      "to": "research/archive/knowledge-library/Sources/\ud83c\udfa4 Pitch Script \u2014 Two-Person (Jaydeane + Aone) -- unavailable-405816da.md",
+      "sha256": "cdc883b384a4f55034499ba3901c5bc06caec76bf0e1e8d0405cc6a558e0bae4"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- 97f8fab7f4.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- 97f8fab7f4.md",
+      "sha256": "2d28cc8b1eb62e6e0ef39b79279eb1bf6dc6fa81c8ecf96a27aa5146d9c3620c"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Jay-deane_Huni_Founder_CV -- 2c7968e100.md",
+      "to": "research/archive/knowledge-library/Sources/Jay-deane_Huni_Founder_CV -- 2c7968e100.md",
+      "sha256": "2bc01722fe3ab1656e7e233458729748fd6583243f9779a4999d813a16461e66"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/live -- 0700c0968a.md",
+      "to": "research/archive/knowledge-library/Sources/live -- 0700c0968a.md",
+      "sha256": "7b5cab5e5d751f7d63d96acd942030802e33ca64f418ad55f0c23fa05a3261e0"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/AtlasIQ_Corridor_Lifeline_Solo_Plan -- 18f5a1cf7d.md",
+      "to": "research/archive/knowledge-library/Sources/AtlasIQ_Corridor_Lifeline_Solo_Plan -- 18f5a1cf7d.md",
+      "sha256": "689d6c031941796f8f24f263813ac95e519aef13c65ad7f2109099683b1836e2"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Investors and Reference Companies MOC -- unavailable-329822b0.md",
+      "to": "research/archive/knowledge-library/Sources/Investors and Reference Companies MOC -- unavailable-329822b0.md",
+      "sha256": "a9d5d7c95ee82cea0d12606724c166dd6838d6447e4bda02292032f6587e6a89"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Fundraising -- unavailable-ec8e3c0c.md",
+      "to": "research/archive/knowledge-library/Sources/Fundraising -- unavailable-ec8e3c0c.md",
+      "sha256": "296f9f300d78c78475344089ad3bfccec846e25b518f0893c17db9f3d2fe1ba7"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- 52e2ebfae0.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- 52e2ebfae0.md",
+      "sha256": "08b1c8cfc36ed68b7548332460aec50435f414ec75d36f40fa71602d52308e8c"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Jay-deane_Huni_Founder_CV -- 08b2d92b6d.md",
+      "to": "research/archive/knowledge-library/Sources/Jay-deane_Huni_Founder_CV -- 08b2d92b6d.md",
+      "sha256": "53930aecd2dde3f3461ee478488900fd34e238a71890c2741cf8824c20b45bb0"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alerts -- 66b427467d.md",
+      "to": "research/archive/knowledge-library/Sources/alerts -- 66b427467d.md",
+      "sha256": "0638c297e452fbc8b02722e717de4b5402ae9d6664176bbebb0de5298e9395ec"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/weather -- f425bf8a14.md",
+      "to": "research/archive/knowledge-library/Sources/weather -- f425bf8a14.md",
+      "sha256": "42c858289a15bd21a0539a228c88476f616d547e6fa0d5a3488614e552774ca2"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/README -- unavailable-23b9e221.md",
+      "to": "research/archive/knowledge-library/Sources/README -- unavailable-23b9e221.md",
+      "sha256": "c3de280150545f50796efddfdf9b5b6834570abdb67e0d943e8c37b451cc71c1"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/latest -- d941cf1f82.md",
+      "to": "research/archive/knowledge-library/Sources/latest -- d941cf1f82.md",
+      "sha256": "39ddbcfb534216867532a4d4407597d8e663c5c50294619b71f268f8a669c4cf"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Claude as Co-Founder -- unavailable-98663623.md",
+      "to": "research/archive/knowledge-library/Sources/Claude as Co-Founder -- unavailable-98663623.md",
+      "sha256": "062641ec9272c101b41f100a5c5600b485172e7e0253232265213c69009658ee"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Fundraising Roadmap -- unavailable-bc8a9a6c.md",
+      "to": "research/archive/knowledge-library/Sources/Fundraising Roadmap -- unavailable-bc8a9a6c.md",
+      "sha256": "472773ceededb8036c973642023d0c8db45f72c335a5a2cbd0258e006e76e896"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Jay-deane_Huni_Founder_CV -- adf937b002.md",
+      "to": "research/archive/knowledge-library/Sources/Jay-deane_Huni_Founder_CV -- adf937b002.md",
+      "sha256": "9da406dd984f84147f88cd28776ba74552ec5392ef290aa074cfc92a5c73ce40"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/config -- df44f2905f.md",
+      "to": "research/archive/knowledge-library/Sources/config -- df44f2905f.md",
+      "sha256": "14f23bc04eec34a2b5a8ed060cb4fc4c56b4f84e7459f0de97506ecedc1b31fb"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Founders -- unavailable-40fb7f07.md",
+      "to": "research/archive/knowledge-library/Sources/Founders -- unavailable-40fb7f07.md",
+      "sha256": "4e60f0fb8499f0ed34027d10fd3a0bf5a24ac43c138c6fac06d18ef4b8994d4c"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/__init__ -- 8f5532a9bf.md",
+      "to": "research/archive/knowledge-library/Sources/__init__ -- 8f5532a9bf.md",
+      "sha256": "e550a4cd7ae44eef0e8c90135fc4666bc8d9f246b70d0aa3de4ba8cf56562e1b"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/rail -- b0132ade8e.md",
+      "to": "research/archive/knowledge-library/Sources/rail -- b0132ade8e.md",
+      "sha256": "03093c77b40bfe0c61038c7abb77acf1350f96ecaa5f8d11f3e5a609d7ee5ee5"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/README -- unavailable-e13359c0.md",
+      "to": "research/archive/knowledge-library/Sources/README -- unavailable-e13359c0.md",
+      "sha256": "e5403f30c1c045672131655d54b91b75e393bd1b06fde20b4782605b3cfe64af"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/test_lifeline -- 3e5a64b30c.md",
+      "to": "research/archive/knowledge-library/Sources/test_lifeline -- 3e5a64b30c.md",
+      "sha256": "ade3790439437872d1225beafd5bb72d97b3a8f1e07454993ad950cf1af65d01"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- unavailable-b33443cc.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- unavailable-b33443cc.md",
+      "sha256": "2205c1bc60fc1e52d501812a42cf993d83e0cf8607fda6bb5eee11301e473521"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Pitch Script \u2014 Investor (Jaydeane + Aone) -- unavailable-b165b952.md",
+      "to": "research/archive/knowledge-library/Sources/Pitch Script \u2014 Investor (Jaydeane + Aone) -- unavailable-b165b952.md",
+      "sha256": "1c0ba03ac5bd7ff8b64e07c7bf0629e1b4d1e93475820679dbbfb3f77cbe95ef"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- 66676b1057.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- 66676b1057.md",
+      "sha256": "f4e0973f4b09d555708d92f8faf4870aeb1b5c94bd882030294e699d056379ed"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Investor (TBD) -- unavailable-6d0ed715.md",
+      "to": "research/archive/knowledge-library/Sources/Investor (TBD) -- unavailable-6d0ed715.md",
+      "sha256": "6db0fff18c34118feecf62cd1728aaabc08edc4421f848255eec72274671fc85"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Investors and Reference Companies MOC -- unavailable-d5259907.md",
+      "to": "research/archive/knowledge-library/Sources/Investors and Reference Companies MOC -- unavailable-d5259907.md",
+      "sha256": "fe8e1581fa7fd4ee50424cce36650e724ae9502852c20bcedbb58ad23944e7ba"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/latest -- 397eec10f4.md",
+      "to": "research/archive/knowledge-library/Sources/latest -- 397eec10f4.md",
+      "sha256": "65e8846ce74d5d31e122bbace8c91ba36c79dd24511bc4a9a9f399fc8662b61c"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- unavailable-e8976c13.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- unavailable-e8976c13.md",
+      "sha256": "6cbc333aba22d947ade3822ec057523eefff3d72b69eccda11f4452bbc2f830b"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Founder Brain Dump -- unavailable-e5acb492.md",
+      "to": "research/archive/knowledge-library/Sources/Founder Brain Dump -- unavailable-e5acb492.md",
+      "sha256": "100a2ccfd8e5491297e4e1f074961bb39f8c80b519c3562688fe2446f29a2ad8"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Founders -- unavailable-008e7112.md",
+      "to": "research/archive/knowledge-library/Sources/Founders -- unavailable-008e7112.md",
+      "sha256": "6a48a92e9b852df4b7075a677cb9a5d2405eae6450cff6557b76ae2c165ea265"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Investor Tracker -- unavailable-086edf3b.md",
+      "to": "research/archive/knowledge-library/Sources/Investor Tracker -- unavailable-086edf3b.md",
+      "sha256": "48856065d3af64d5f7fdd425e4dcd1f2ce5e85355c6545ddd0018f3e3a3fb64c"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/__main__ -- bebd2813d6.md",
+      "to": "research/archive/knowledge-library/Sources/__main__ -- bebd2813d6.md",
+      "sha256": "82752fa8021ad3c6131762373c8c65098299812b977444cf573d521a936db833"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Claude as Co-Founder -- unavailable-83a86794.md",
+      "to": "research/archive/knowledge-library/Sources/Claude as Co-Founder -- unavailable-83a86794.md",
+      "sha256": "26d2b593a1a718e95b61133c1e95c653b722abfbb192ff28634746812770a095"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Founders -- unavailable-58f9dbff.md",
+      "to": "research/archive/knowledge-library/Sources/Founders -- unavailable-58f9dbff.md",
+      "sha256": "12837c5423e99ef7c69feb0ab9f3d14b365ffd8755a26ea69cdb37dc09b554e8"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Bootstrapped -- 1c2ea01ce9.md",
+      "to": "research/archive/knowledge-library/Sources/Bootstrapped -- 1c2ea01ce9.md",
+      "sha256": "4d3e42a8e9a2a84f75585d0d6dd057451ca188dae1e435e5e16f9f13158cc7cc"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/\ud83c\udfa4 Investor Pitch \u2014 Prep Hub -- unavailable-0da1807c.md",
+      "to": "research/archive/knowledge-library/Sources/\ud83c\udfa4 Investor Pitch \u2014 Prep Hub -- unavailable-0da1807c.md",
+      "sha256": "0141bb7a3e43282e6ecf9ea23751065d1f844b95a46a70ef928ced6e7dc18a9d"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/warnings -- 75c50447ac.md",
+      "to": "research/archive/knowledge-library/Sources/warnings -- 75c50447ac.md",
+      "sha256": "f88e0bc07885378995535a01abef56ab3f2671b3dcafe23fb8d047453b86319a"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/\ud83c\udfaf Investor Pitch \u2014  Date  (Mission Control) -- unavailable-76adc8e3.md",
+      "to": "research/archive/knowledge-library/Sources/\ud83c\udfaf Investor Pitch \u2014  Date  (Mission Control) -- unavailable-76adc8e3.md",
+      "sha256": "6ed256e632b3aab80f9e0580578039206d0a92d7af1bba22f1573d261b21587b"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/latest -- 34e859bb97.md",
+      "to": "research/archive/knowledge-library/Sources/latest -- 34e859bb97.md",
+      "sha256": "b4cc1b962db57600d6c17e44824885ee5d6d172458af355a76ab7eadb4aed407"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/rail-status -- 0963fd2bdc.md",
+      "to": "research/archive/knowledge-library/Sources/rail-status -- 0963fd2bdc.md",
+      "sha256": "ffb0811d2aabb20e8d144aa334b5fa39e96d786b27924ef9e9b30c2d74022c94"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/rail -- 3657be8fa7.md",
+      "to": "research/archive/knowledge-library/Sources/rail -- 3657be8fa7.md",
+      "sha256": "31e806f3a54f962c18ed071d5dbcb71df619782a26387477dd6b3d6e48fe313e"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/alert -- unavailable-94c7f45c.md",
+      "to": "research/archive/knowledge-library/Sources/alert -- unavailable-94c7f45c.md",
+      "sha256": "9b9bf028632c992bc4ee8dadd3fa22ae9933e51307ba982581e6fc160e750a5b"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Draft investor cold email template -- unavailable-713426f6.md",
+      "to": "research/archive/knowledge-library/Sources/Draft investor cold email template -- unavailable-713426f6.md",
+      "sha256": "c018ef460c496934aa109908f4aad15b85f287cb04ba7ac85a567d8b6b743f41"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/engine -- 19928406d9.md",
+      "to": "research/archive/knowledge-library/Sources/engine -- 19928406d9.md",
+      "sha256": "fe412e9c83820a6e48d89395011d15494b0aec198f6376bb0f3dd6bc999945a5"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/weather -- 3873d9642c.md",
+      "to": "research/archive/knowledge-library/Sources/weather -- 3873d9642c.md",
+      "sha256": "59ebbeecc43321c6d080d1a00d7b78e9834af17d11bd7ff20c9c4327d35b5c10"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Pitch Numbers \u2014 Market, Unit Economics & Revenue M -- unavailable-808cb085.md",
+      "to": "research/archive/knowledge-library/Sources/Pitch Numbers \u2014 Market, Unit Economics & Revenue M -- unavailable-808cb085.md",
+      "sha256": "fb90fb674b91e15814852c1cb975bc7cea7c6f3a14b699c4349658bb0b4e0d60"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/Fundraising Roadmap -- unavailable-6810cca8.md",
+      "to": "research/archive/knowledge-library/Sources/Fundraising Roadmap -- unavailable-6810cca8.md",
+      "sha256": "fd91e5dbb2da023a7e36509133ab61b964b3a09a10da68781b97b3fe820d5266"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/adapters -- b86d3fa763.md",
+      "to": "research/archive/knowledge-library/Sources/adapters -- b86d3fa763.md",
+      "sha256": "ac2ae6c64abc5f41a0ea87de1e9dfeb39e2e57bac88ede04569de1ba691d74d1"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Sources/AtlasIQ and Business Ideas/config -- 123a744dc4.md",
+      "to": "research/archive/knowledge-library/Sources/config -- 123a744dc4.md",
+      "sha256": "ee0eae45b01d9cc71215f555140dbda0635fe2ad9c914e832d451dca01c917d2"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Conversations/AtlasIQ and Business Ideas/Build Perth Corridor Business -- 6ac19e61.md",
+      "to": "research/archive/knowledge-library/Conversations/Build Perth Corridor Business -- 6ac19e61.md",
+      "sha256": "5a9b7b53748a32a24737c74492051cc1c0c18fdc6727020c6571bf47124484a4"
+    },
+    {
+      "action": "copy",
+      "from": "/Users/a111/Desktop/111 v2/111/Knowledge Library/Topics/AtlasIQ and Business Ideas.md",
+      "to": "research/archive/knowledge-library/AtlasIQ and Business Ideas.md",
+      "sha256": "b0bcaee59f99f09966d387b16a14a65aec3285e8c1f10325f193dec16c403c3b"
+    }
+  ]
+}

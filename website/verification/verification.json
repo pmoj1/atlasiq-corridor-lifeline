@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "version": "premium photographic Corridor Lifeline website",
+  "static_check": {
+    "pages": 3,
+    "local_references": 46,
+    "javascript_syntax": "passed",
+    "errors": []
+  },
+  "browser_checks": [
+    "Desktop 1440x1000: images/font loaded, no horizontal overflow, anchor navigation",
+    "Plan tabs: click and arrow-key selection",
+    "Mobile 390x844: homepage and contact page without horizontal overflow",
+    "Mobile menu: Escape closes and restores focus; anchor closes menu",
+    "Landscape 667x375: navigation links reachable with overflow scrolling"
+  ],
+  "implementation_review": [
+    "Reduced-motion fallback inspected in source",
+    "No-JavaScript content/navigation fallback inspected in source"
+  ],
+  "screenshots": "premium/",
+  "package": {
+    "path": "AtlasIQ-Corridor-Lifeline-website.zip",
+    "entries": 18,
+    "bytes": 1694857,
+    "integrity": "passed"
+  },
+  "publication": "Not published. Existing Netlify project access required."
+}

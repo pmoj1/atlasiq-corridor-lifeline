@@ -1,0 +1,47 @@
+{
+  "AtlasIQ-60s-voiceover.mp4": {
+    "duration": 60.0,
+    "fps": 30,
+    "frames": 1800,
+    "resolution": "1920x1080",
+    "audio": true,
+    "decode": "pass"
+  },
+  "AtlasIQ-60s-captioned.mp4": {
+    "duration": 60.0,
+    "fps": 30,
+    "frames": 1800,
+    "resolution": "1920x1080",
+    "audio": true,
+    "decode": "pass"
+  },
+  "AtlasIQ-60s-silent.mp4": {
+    "duration": 60.0,
+    "fps": 30,
+    "frames": 1800,
+    "resolution": "1920x1080",
+    "audio": false,
+    "decode": "pass"
+  },
+  "end_hold": {
+    "seconds": 2.5,
+    "source_frames": 75,
+    "identical": true
+  },
+  "mix": {
+    "duration": 60,
+    "channels": 2,
+    "peak": 0.692962646484375,
+    "clipping": false,
+    "synthetic_voice": "en-AU-WilliamNeural",
+    "time_stretch": false
+  },
+  "editor": {
+    "manual_checks": [
+      "Browser playback advanced to 29.57 seconds; metadata duration 60 seconds; no media error",
+      "Source preview at frame 1020",
+      "HTTP interface isolation yields distinct image"
+    ],
+    "format": "local HTML/Python"
+  }
+}

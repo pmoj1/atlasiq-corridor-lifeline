@@ -1,0 +1,2 @@
+Built-in image generation, editing AtlasIQ-orange-iPhone-wallpaper.png.
+Make the orange geometric mark smaller, about 28% canvas width, centred around 51% height. Put AtlasIQ below in Space Grotesk-style sans serif, Atlas ivory and IQ orange. Keep the dark background and portrait iPhone layout with room for clock and controls. No additional text, blue or decoration.

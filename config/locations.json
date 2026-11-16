@@ -1,0 +1,35 @@
+{
+  "corridor_id": "east-west",
+  "name": "Perth to Port Augusta — schematic east–west corridor",
+  "geometry_kind": "schematic",
+  "screening_buffer_km": 50,
+  "coordinate_basis": "Manually rounded approximate locality centres for a demonstration. Not surveyed track, terminal or station coordinates. Route references establish locality sequence, not coordinate accuracy.",
+  "limitations": [
+    "Approximate place coordinates joined by schematic segments; not surveyed rail alignment.",
+    "Distance is a geographic screening estimate, not track distance, road access or freight routing.",
+    "Inside the buffer does not establish monitoring coverage, a mine connection or rail operating status.",
+    "The 50 km buffer is an illustrative screening choice, not an operational safety boundary."
+  ],
+  "provenance": [
+    {"title": "ARTC east–west corridor map", "url": "https://www.artc.com.au/uploads/East-West-Corridor-Map-3.pdf", "checked_on": "2026-10-25", "supports": "Route locality sequence for Kalgoorlie, Rawlinna, Forrest, Cook and Tarcoola. Does not substantiate the approximate coordinates or current rail status."},
+    {"title": "ARTC corridor network information", "url": "https://www.artc.com.au/customers/operations/nib/kalgoorlie-serviceton-and-parkes-corridor/", "checked_on": "2026-10-25", "supports": "Named sections from West Kalgoorlie to Cook, Tarcoola and Spencer Junction. Not live operational status."},
+    {"title": "Arc Infrastructure rail freight network map", "url": "https://www.arcinfra.com/ARCInfrastructure/media/documents/Network%20Specifications/ARC_Map_Network.pdf", "checked_on": "2026-10-25", "supports": "Perth–Kalgoorlie network context only; the simplified straight segment does not reproduce its actual alignment."}
+  ],
+  "points": [
+    {"id": "perth", "name": "Perth", "lat": -31.95, "lon": 115.86},
+    {"id": "kalgoorlie", "name": "Kalgoorlie", "lat": -30.75, "lon": 121.47},
+    {"id": "rawlinna", "name": "Rawlinna", "lat": -31.01, "lon": 125.33},
+    {"id": "forrest", "name": "Forrest", "lat": -30.85, "lon": 128.10},
+    {"id": "cook", "name": "Cook", "lat": -30.62, "lon": 130.41},
+    {"id": "tarcoola", "name": "Tarcoola", "lat": -30.71, "lon": 134.56},
+    {"id": "port-augusta", "name": "Port Augusta", "lat": -32.49, "lon": 137.76}
+  ],
+  "segments": [
+    {"id": "perth-kalgoorlie", "from": "perth", "to": "kalgoorlie", "name": "Perth – Kalgoorlie"},
+    {"id": "kalgoorlie-rawlinna", "from": "kalgoorlie", "to": "rawlinna", "name": "Kalgoorlie – Rawlinna"},
+    {"id": "rawlinna-forrest", "from": "rawlinna", "to": "forrest", "name": "Rawlinna – Forrest"},
+    {"id": "forrest-cook", "from": "forrest", "to": "cook", "name": "Forrest – Cook"},
+    {"id": "cook-tarcoola", "from": "cook", "to": "tarcoola", "name": "Cook – Tarcoola"},
+    {"id": "tarcoola-port-augusta", "from": "tarcoola", "to": "port-augusta", "name": "Tarcoola – Port Augusta"}
+  ]
+}
